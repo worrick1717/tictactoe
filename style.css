@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color:white;
+    background-color: rgb(37,9,37);
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+
+}
+nav ul{
+    list-style-type: none;
+}
