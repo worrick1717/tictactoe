@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +34,17 @@ nav ul{
 .box{
     border: 2px solid black;
     font-size: 6vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box:hover{
     background-color: rgb(216, 117, 216)
+}
+.gameInfo{
+    padding:50px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
